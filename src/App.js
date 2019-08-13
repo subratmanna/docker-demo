@@ -12,6 +12,7 @@ class App extends Component {
         </div>
         <p className="App-intro">
         To get started, edit <code>src/App.js</code> and save to reload.
+        To get started, edit <code>src/App.js</code> and save to reload.
         </p>
       </div>
     );
@@ -19,3 +20,4 @@ class App extends Component {
 }
 
 export default App;
+

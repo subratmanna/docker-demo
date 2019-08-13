@@ -7,11 +7,11 @@ script:
   - docker run dev_frontend npm run test -- --coverage
 deploy:
   provider: elasticbeanstalk
-  region: "us-east-2"
-  app: "Docker-demo"
-  env: "DockerDemo-env"
-  bucket_name: "elasticbeanstalk-us-east-2-155213612701"
-  bucket_path: "Docker-demo"
+  region: "ap-south-1"
+  app: "Ndocker"
+  env: "Ndocker-env"
+  bucket_name: "elasticbeanstalk-ap-south-1-155213612701"
+  bucket_path: "Ndocker-demo"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
